@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "fitlog";
+  default: true;
+  prefersdark: false;
+  color-scheme: dark;
+  --color-primary: #ccff00;
+  --color-primary-content: #0b0c0e;
+  --color-secondary: #ccff00;
+  --color-secondary-content: #0b0c0e;
+  --color-accent: #ccff00;
+  --color-accent-content: #0b0c0e;
+  --color-neutral: #1a1d21;
+  --color-neutral-content: #d6d9de;
+  --color-base-100: #0b0c0e;
+  --color-base-200: #131518;
+  --color-base-300: #22262b;
+  --color-base-content: #e8eaed;
+  --color-info: #3abff8;
+  --color-success: #ccff00;
+  --color-success-content: #0b0c0e;
+  --color-warning: #fbbd23;
+  --color-error: #f87272;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter), "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-oswald), Impact, sans-serif;
+}
