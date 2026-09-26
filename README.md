@@ -2,7 +2,7 @@
 
 A dark, no-nonsense gym companion built with Next.js. Pick a lift, lock it into today's plan, and watch the week's work add up.
 
-🔗 **Live Site:** 
+🔗 **Live Site:** https://fitlog-a6-kappa.vercel.app/
 📦 **Repository:** https://github.com/orjodasutshab/fitlog-a6
 
 ---
